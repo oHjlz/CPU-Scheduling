@@ -3,13 +3,14 @@
 This project implements various CPU scheduling algorithms in C, providing a way to simulate and analyze task scheduling on the CPU. The goal is to evaluate different algorithms' behavior and performance in terms of waiting time, task order, and responsiveness.
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Implemented Scheduling Algorithms](#implemented-scheduling-algorithms)
-3. [Implementation Details](#implementation-details)
-4. [How to Compile and Run](#how-to-compile-and-run)
-5. [Test Cases & Results](#test-cases--results)
-6. [Conclusion](#conclusion)
-7. [References](#references)
+1. [Introduction](#1-introduction)
+2. [Implemented Scheduling Algorithms](#2-implemented-scheduling-algorithms)
+3. [Implementation Details](#3-implementation-details)
+4. [How to Compile and Run](#4-how-to-compile-and-run)
+5. [Test Cases & Results](#5-test-cases--results)
+6. [Conclusion](#7-conclusion)
+7. [References](#8-references)
+
 
 ## 1. Introduction
 
