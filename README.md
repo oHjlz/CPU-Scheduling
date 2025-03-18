@@ -102,104 +102,48 @@ make priority_rr
 **-Test Case 1: SJF**
 -Command: ./sjf schedule.txt
 
-Output: 
-Running task = [T8] [10] [25] for 25 units.
-Running task = [T7] [3] [30] for 30 units.
-Running task = [T6] [1] [10] for 10 units.
-Running task = [T5] [5] [20] for 20 units.
-Running task = [T4] [5] [15] for 15 units.
-Running task = [T3] [3] [25] for 25 units.
-Running task = [T2] [3] [25] for 25 units.
-Running task = [T1] [4] [20] for 20 units.
+Output:
+
+![image](https://github.com/user-attachments/assets/5407b33e-77e9-4e14-84c8-7064fc492462)
+
+
+
+
 
 **-Test Case 2: FCFS**
 Command: ./fcfs schedule.txt
 
 Output:
-Running task = [T8] [10] [25] for 25 units.
-Running task = [T7] [3] [30] for 30 units.
-Running task = [T6] [1] [10] for 10 units.
-Running task = [T5] [5] [20] for 20 units.
-Running task = [T4] [5] [15] for 15 units.
-Running task = [T3] [3] [25] for 25 units.
-Running task = [T2] [3] [25] for 25 units.
-Running task = [T1] [4] [20] for 20 units.
+
+![image](https://github.com/user-attachments/assets/11fc0cbb-017c-4632-a90d-907cd7a1c4b9)
+
 (Note: The tasks are added to the front of the list, so this is first come first serve)
 
 **-Test Case 3: Priority Scheduling**
 Command: ./priority schedule.txt
 
 Output:
-Running task = [T8] [10] [25] for 25 units.
-Running task = [T5] [5] [20] for 20 units.
-Running task = [T4] [5] [15] for 15 units.
-Running task = [T1] [4] [20] for 20 units.
-Running task = [T7] [3] [30] for 30 units.
-Running task = [T3] [3] [25] for 25 units.
-Running task = [T2] [3] [25] for 25 units.
-Running task = [T6] [1] [10] for 10 units.
+
+![image](https://github.com/user-attachments/assets/fc4a24fd-c0aa-49c8-b8c9-6f7ebb25c122)
+
 
 -**Test Case 4: Round Robin (RR)**
 Command: ./rr schedule.txt
 
 Output:
-Running task = [T8] [10] [25] for 10 units.
-Running task = [T7] [3] [30] for 10 units.
-Running task = [T6] [1] [10] for 10 units.
-Task T6 finished.
-Running task = [T5] [5] [20] for 10 units.
-Running task = [T4] [5] [15] for 10 units.
-Running task = [T3] [3] [25] for 10 units.
-Running task = [T2] [3] [25] for 10 units.
-Running task = [T1] [4] [20] for 10 units.
-Running task = [T8] [10] [15] for 10 units.
-Running task = [T7] [3] [20] for 10 units.
-Running task = [T5] [5] [10] for 10 units.
-Task T5 finished.
-Running task = [T4] [5] [5] for 5 units.
-Task T4 finished.
-Running task = [T3] [3] [15] for 10 units.
-Running task = [T2] [3] [15] for 10 units.
-Running task = [T1] [4] [10] for 10 units.
-Task T1 finished.
-Running task = [T8] [10] [5] for 5 units.
-Task T8 finished.
-Running task = [T7] [3] [10] for 10 units.
-Task T7 finished.
-Running task = [T3] [3] [5] for 5 units.
-Task T3 finished.
-Running task = [T2] [3] [5] for 5 units.
-Task T2 finished.
+
+![image](https://github.com/user-attachments/assets/cd5aba30-c513-4971-8d60-76f1c73a9e26)
+
 (Repeat in round-robin fashion until all tasks are finished.)
 
 **-Test Case 5: Priority Round Robin (Priority RR)**
 Command: ./priority_rr schedule.txt
 
 Output:
-Running task = [T8] [10] [25] for 25 units.
-Task T8 finished.
-Running task = [T5] [5] [20] for 10 units.
-Running task = [T4] [5] [15] for 10 units.
-Running task = [T5] [5] [10] for 10 units.
-Task T5 finished.
-Running task = [T4] [5] [5] for 5 units.
-Task T4 finished.
-Running task = [T1] [4] [20] for 20 units.
-Task T1 finished.
-Running task = [T7] [3] [30] for 10 units.
-Running task = [T3] [3] [25] for 10 units.
-Running task = [T2] [3] [25] for 10 units.
-Running task = [T7] [3] [20] for 10 units.
-Running task = [T3] [3] [15] for 10 units.
-Running task = [T2] [3] [15] for 10 units.
-Running task = [T7] [3] [10] for 10 units.
-Task T7 finished.
-Running task = [T3] [3] [5] for 5 units.
-Task T3 finished.
-Running task = [T2] [3] [5] for 5 units.
-Task T2 finished.
-Running task = [T6] [1] [10] for 10 units.
-Task T6 finished.
+
+![image](https://github.com/user-attachments/assets/0068c808-e1ca-4143-97ce-231af4671227)
+
+
 (Repeat in priority round-robin fashion until all tasks are finished.)
 
 ## 6. Conclusion
