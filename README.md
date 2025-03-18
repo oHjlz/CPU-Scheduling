@@ -31,6 +31,16 @@ The linked list is organized differently depending on the specific algorithm bei
 is implemented with its unique logic to ensure the correct task ordering based on the algorithm's requirements. As a result, tasks 
 are processed and executed in the order determined by the scheduling strategy.
 
+### Makefile Overview
+
+A Makefile automates the compilation of the scheduling program, streamlining the build process for different scheduling algorithms. It specifies how source files should be compiled and linked to create executables efficiently.
+
+  -Compilation Commands: Run make fcfs, make sjf, make rr, make priority, or make priorityrr to build the corresponding scheduler.
+  -Cleanup: Use make clean to remove compiled files and reset the project.
+  -Efficiency: Only recompiles modified files, saving time and ensuring consistency.
+
+This ensures that each scheduling algorithm is compiled correctly with minimal effort. 
+
 ## 2. Implemented Scheduling Algorithms
 
 ### 2.1 First-Come, First-Served (FCFS)
