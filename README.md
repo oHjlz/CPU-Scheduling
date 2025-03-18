@@ -8,8 +8,8 @@ This project implements various CPU scheduling algorithms in C, providing a way 
 3. [Implementation Details](#3-implementation-details)
 4. [How to Compile and Run](#4-how-to-compile-and-run)
 5. [Test Cases & Results](#5-test-cases--results)
-6. [Conclusion](#7-conclusion)
-7. [References](#8-references)
+6. [Conclusion](#6-conclusion)
+7. [References](#7-references)
 
 
 ## 1. Introduction
@@ -98,7 +98,7 @@ make priority_rr
 ./rr schedule.txt
 ./priority_rr schedule.txt
 ```
-## 5. Test Cases and Results
+## 5. Test Cases & Results
 **-Test Case 1: SJF**
 -Command: ./sjf schedule.txt
 
